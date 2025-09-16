@@ -225,7 +225,7 @@ mixin CoreDataTypesSafetyMixin {
     }
 
     if (value is String) {
-      return now;
+      return DateTime.tryParse(value) ?? now;
     }
 
     return now;

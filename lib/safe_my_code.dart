@@ -1,8 +1,8 @@
-import 'package:safe_my_code/helpers/safe_string_helper.dart';
-import 'package:safe_my_code/safety_mixins/core_data_types_safety_mixin.dart';
-import 'package:safe_my_code/safety_mixins/logger_safety_mixin.dart';
-import 'package:safe_my_code/safety_mixins/navigation_safety_mixin.dart';
-import 'package:safe_my_code/safety_mixins/ui_safety_mixin.dart';
+import 'package:safe_my_code/src/helpers/safe_string_helper.dart';
+import 'package:safe_my_code/src/safety_mixins/core_data_types_safety_mixin.dart';
+import 'package:safe_my_code/src/safety_mixins/logger_safety_mixin.dart';
+import 'package:safe_my_code/src/safety_mixins/navigation_safety_mixin.dart';
+import 'package:safe_my_code/src/safety_mixins/ui_safety_mixin.dart';
 
 class _SafeMyCode
     with

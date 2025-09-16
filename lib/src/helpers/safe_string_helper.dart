@@ -1,4 +1,4 @@
-import 'package:safe_my_code/extensions/safe_string_extension.dart';
+import 'package:safe_my_code/src/extensions/safe_string_extension.dart';
 
 mixin SafeStringHelper {
   // Arabic and English Numbers Strings

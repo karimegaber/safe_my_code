@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:safe_my_code/safety_mixins/ui_safety_mixin.dart';
+import 'package:safe_my_code/src/safety_mixins/ui_safety_mixin.dart';
 
 mixin NavigationSafetyMixin on UiSafetyMixin {
   /// Returns the [NavigatorState] for the given [context].

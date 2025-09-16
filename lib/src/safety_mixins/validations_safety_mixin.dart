@@ -1,4 +1,4 @@
-import 'package:safe_my_code/extensions/safe_string_extension.dart';
+import 'package:safe_my_code/src/extensions/safe_string_extension.dart';
 
 mixin ValidationsSafetyMixin {
   /// Checks if the given text is a valid email address.
