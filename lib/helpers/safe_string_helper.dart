@@ -87,13 +87,12 @@ mixin SafeStringHelper {
 
     return text!.replaceAllMapped(
       RegExp(r'[\u0660-\u0669]'),
-      (match) =>
-          _numbers.entries
-              .firstWhere(
-                (entry) => entry.value == match.group(0),
-                orElse: () => MapEntry(match.group(0)!, match.group(0)!),
-              )
-              .key,
+      (match) => _numbers.entries
+          .firstWhere(
+            (entry) => entry.value == match.group(0),
+            orElse: () => MapEntry(match.group(0)!, match.group(0)!),
+          )
+          .key,
     );
   }
 
@@ -109,13 +108,10 @@ mixin SafeStringHelper {
   }) {
     if (text.isEmptyOrNull) return "";
 
-    return text!
-        .split("")
-        .map((character) {
-          if (text.indexOf(character) == 0 && showFirstLetter) return character;
+    return text!.split("").map((character) {
+      if (text.indexOf(character) == 0 && showFirstLetter) return character;
 
-          return mask;
-        })
-        .join("");
+      return mask;
+    }).join("");
   }
 }
