@@ -1,6 +1,6 @@
 name: safe_my_code
 description: "A lightweight package of helpers and extensions for writing safer, cleaner, and more robust Dart & Flutter code."
-version: 0.0.1
+version: 0.0.2
 homepage: "https://github.com/karimegaber/safe_my_code.git"
 repository: "https://github.com/karimegaber/safe_my_code.git"
 
